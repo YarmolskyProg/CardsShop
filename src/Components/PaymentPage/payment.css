@@ -1,0 +1,285 @@
+.methodwrap {
+    border: 1px solid grey;
+    padding: 40px;
+    width: 50%;
+}
+
+.wrapper_m {
+    width: 95%;
+    display: flex;
+    padding-top: 130px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.super_container {
+    min-height: 100vh;
+}
+
+.dis {
+    display: flex;
+    justify-content: center;
+}
+
+.dis p {
+    font-size: 1.8em;
+}
+
+.active {
+    color: black;
+}
+
+.payment_wrap {
+    padding: 40px;
+    border: 1px solid gray;
+    border-left: none;
+    width: 60%;
+}
+
+.met_p {
+    font-size: 1.8em;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+.cryp_cred {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.cryp_cred li p {
+    align-items: center;
+}
+
+.mn_ul {
+    margin-bottom: 0;
+}
+
+.mn_ul li {
+    cursor: pointer;
+
+    margin: 8px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.taste {
+    font-size: 1.3em;
+}
+
+.mn_ul li p {
+    margin-bottom: 0px;
+
+    display: flex;
+}
+
+.mn_ul li p img {
+    margin-right: 15px;
+    width: 45px;
+}
+
+.mn_ul li:hover>p {
+    color: black;
+}
+
+.bigImg {
+
+    border-radius: 50%;
+}
+
+.hr_pay {
+    margin: 2rem 0;
+    border-top: 1px solid rgb(146, 146, 146);
+}
+
+.attention {
+    font-size: 1.8rem;
+}
+
+.email_form {
+
+    padding: 15px;
+    width: 300px;
+}
+
+.email_form::placeholder {
+    font-size: 1.1rem;
+}
+
+.email_form_wrp {
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.confirm_btn {
+    margin-left: 20px;
+    font-size: 1.1rem;
+    background: none;
+    font-weight: 600;
+    padding: 0px 25px;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.confirm_btn:hover {
+    background: black;
+    color: white;
+}
+
+.sum_field {
+    display: flex;
+    padding: 10px 25px;
+    border: 1px solid;
+    width: 25%;
+    cursor: pointer;
+    overflow: scroll;
+    justify-content: space-between;
+}
+
+.sum_qtty_coin {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+
+.wrpFR {
+    margin-top: 40px;
+}
+
+.sum_add_wrp {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.sum_coin {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.address_field_wrp {
+    border: 1px solid;
+    width: 70%;
+    padding: 10px 15px;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.address_field {
+    font-size: 1.2rem;
+}
+
+.pay_status {
+    border: 1px solid none;
+    padding: 15px 40px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 50px auto 0 auto;
+    background-color: rgb(174, 174, 174);
+    cursor: pointer;
+}
+
+.pay_status p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(217, 216, 216);
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dis p {
+        font-size: 1.4em;
+    }
+
+    .methodwrap {
+        width: 100%;
+    }
+
+    .payment_wrap {
+        width: 100% !important;
+    }
+
+    .cryp_cred {
+        font-size: 1.3rem;
+    }
+
+    .mn_ul li p {
+        font-size: 1.2rem;
+    }
+
+    .cryp_cred {}
+
+    .bigImg {
+        width: 40px !important;
+
+    }
+
+    .met_p {
+        font-size: 1.4rem;
+    }
+
+    .wrapper_m {
+        width: 95%;
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .payment_wrap {
+        border-left: 1px solid;
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .attention {
+        font-size: 1rem;
+    }
+
+    .email_form_wrp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email_form {
+        width: 100%;
+    }
+
+    .confirm_btn {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 10px 10px;
+    }
+
+    .sum_add_wrp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sum_field {
+        width: 100%;
+
+    }
+
+    .address_field_wrp {
+        margin-top: 10px;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .pay_status {
+        width: 100%;
+    }
+
+    .pay_status p {
+        font-size: 1.1rem;
+    }
+}
